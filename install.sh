@@ -23,5 +23,5 @@ echo "🔌 Enabling display and network manager services..."
 sudo systemctl enable lightdm 
 sudo systemctl enable NetworkManager 
 
-echo " ✅ Done. Rebooting into XFCE..." 
+echo "⚠️ WARNING: This script modifies core system packages. Backup your system before continuing." 
 sleep 10  
