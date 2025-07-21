@@ -24,5 +24,4 @@ sudo systemctl enable lightdm
 sudo systemctl enable NetworkManager 
 
 echo " ✅ Done. Rebooting into XFCE..." 
-sleep 3 
-sudo reboot 
+sleep 10  
